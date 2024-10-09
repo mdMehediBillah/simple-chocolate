@@ -22,15 +22,13 @@
 
 body {
   font-family: "Nunito", sans-serif;
-  /* background-image: linear-gradient(
-    to left,
-    rgb(201, 227, 87),
-    rgb(216, 192, 69)
-  ); */
-
   width: 100%;
-  height: 100%;
-  background-color: #c8a89c;
+  background-color: #906c5f;
+  height: 200vh;
+}
+
+.threeSection {
+  height: 150vh; /* Ensure scrolling space */
 }
 
 body::-webkit-scrollbar {
